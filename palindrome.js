@@ -1,5 +1,8 @@
 function palindrome(str) {
+    if (str === "") {
+        return "input can't be empty";
 
+    }
     let len = str.length;
     let mid = Math.floor(len / 2);
 
